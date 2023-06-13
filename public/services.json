@@ -1,0 +1,28 @@
+[
+    { 
+        "service_id": "01",
+        "title": "EcoCycle",
+        "img": "https://i.ibb.co/XJrzTdP/Untitled-design-4.jpg",
+       
+        
+        "description": "EcoCycle is a recycling service that focuses on responsible and sustainable disposal of electronic waste (e-waste) and lithium-ion batteries. The service is designed to help individuals and businesses dispose of their electronic waste in an environmentally friendly way."
+    },
+    { 
+        "service_id": "02",
+        "title": "Sustainable Cells",
+        "img": "https://i.ibb.co/TcNfp7Q/Untitled-design-2.jpg",
+       
+        "description": "Sustainable Cells is a service that specializes in the responsible and sustainable disposal of lithium-ion batteries. The service is designed to help individuals and businesses dispose of their used or end-of-life batteries in an environmentally friendly way."
+    },
+    
+    { 
+        "service_id": "03", 
+        "title": "EcoWaste Innovations",
+        "img": "https://i.ibb.co/D14Vzf1/Untitled-design-2.jpg",
+        
+        "description": "EcoWaste Innovations is a recycling service that specializes in the responsible and sustainable disposal of electronic waste (e-waste). The service is designed to help individuals and businesses dispose of their e-waste in an environmentally friendly way."
+    }
+    
+   
+]
+
