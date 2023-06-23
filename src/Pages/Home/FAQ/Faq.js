@@ -1,10 +1,15 @@
 import React from 'react';
+import useTitle from '../../../hooks/useTitle';
 
 const Faq = () => {
+    useTitle('Faq')
+
+
+
     return (
         <section className="w-4/5 mx-auto my-20 py-5">
             <h1 className="text-2xl md:text-4xl text-[#05BFDB] font-bold text-center mb-10">
-                Frequently Asked Questions
+                FREQUENTLY ASKED QUESTIONS
             </h1>
 
             <div className="collapse collapse-arrow border bg-base-100 mb-3 border-[#05BFDB] text-start">

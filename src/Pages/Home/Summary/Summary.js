@@ -26,7 +26,7 @@ const Summary = () => {
 
     return (
         <div className='my-24'>
-            <h2 className='text-4xl font-bold text-[#05BFDB] my-16  text-center font-serif'>Our Success Stories</h2>
+            <h2 className='text-4xl font-bold text-[#05BFDB] my-16  text-center font-serif'>OUR  SUCCESS STORIES</h2>
 {/* 
             <section className='py-12'
                 style={{

@@ -1,7 +1,12 @@
 import React from 'react';
 import about from '../../../assets/images/about.jpg'
+import useTitle from '../../../hooks/useTitle';
 
 const About = () => {
+  useTitle('about')
+
+
+
     return (
 
         <div className="my-24">

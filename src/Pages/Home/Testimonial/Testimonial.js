@@ -1,15 +1,19 @@
 import React from 'react';
+import useTitle from '../../../hooks/useTitle';
 
 
 
 const Testimonial = () => {
+    useTitle('testimonial')
+
+
     return (
         <>
             <div className='my-16'>
-                <h1 className="text-4xl font-serif  font-semibold px-4 leading-10  mt-6 text-center text-[#05BFDB]">What our client says</h1>
+                <h1 className="text-4xl font-serif  font-semibold px-4 leading-10  mt-6 text-center text-[#05BFDB]">WHAT OUR CLIENT SAYS</h1>
                 <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:px-20 px-10 py-20 gap-6">
                     <div>
-                        <div className="group w-full bg-white relative flex flex-col items-center hover:bg-gray-700 cursor-pointer shadow-md md:p-12 p-6">
+                        <div className="group w-full bg-white relative flex flex-col items-center hover:bg-gray-700 cursor-pointer shadow-lg md:p-12 p-6">
                             <div className="text-gray-600 group-hover:text-white flex flex-col items-center">
                                 <svg width={26} height={27} viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clipPath="url(#clip0)">
@@ -22,7 +26,7 @@ const Testimonial = () => {
                                         </clipPath>
                                     </defs>
                                 </svg>
-                                <p className="xl:w-80 text-base leading-normal text-center mt-4">It is important to properly dispose of e-waste and Li batteries to prevent harm to the environment and human health. Many communities offer e-waste recycling programs and battery drop-off locations. Additionally, some companies offer recycling programs for their products, such as Apple's recycling program for iPhones and other devices.</p>
+                                <p className="xl:w-80 text-base leading-normal text-justify mt-4">It is important to properly dispose of e-waste and Li batteries to prevent harm to the environment and human health. Many communities offer e-waste recycling programs and battery drop-off locations. Additionally, some companies offer recycling programs for their products, such as Apple's recycling program for iPhones and other devices.</p>
                             </div>
                             <div className="text-white group-hover:text-black absolute bottom-0 -mb-6">
                                 <svg width={34} height={28} viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -55,7 +59,7 @@ const Testimonial = () => {
                         </div>
                     </div>
                     <div>
-                        <div className="group w-full bg-white relative flex flex-col items-center hover:bg-gray-700 cursor-pointer shadow-md md:p-12 p-6">
+                        <div className="group w-full bg-white relative flex flex-col items-center hover:bg-gray-700 cursor-pointer shadow-lg md:p-12 p-6">
                             <div className="text-gray-600 group-hover:text-white flex flex-col items-center">
                                 <svg width={26} height={27} viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clipPath="url(#clip0)">
@@ -68,7 +72,7 @@ const Testimonial = () => {
                                         </clipPath>
                                     </defs>
                                 </svg>
-                                <p className="xl:w-80 text-base leading-normal text-center mt-4">It is important to properly dispose of e-waste and Li batteries to prevent harm to the environment and human health. Many communities offer e-waste recycling programs and battery drop-off locations. Additionally, some companies offer recycling programs for their products, such as Apple's recycling program for iPhones and other devices.</p>
+                                <p className="xl:w-80 text-base leading-normal text-justify mt-4">It is important to properly dispose of e-waste and Li batteries to prevent harm to the environment and human health. Many communities offer e-waste recycling programs and battery drop-off locations. Additionally, some companies offer recycling programs for their products, such as Apple's recycling program for iPhones and other devices.</p>
                             </div>
                             <div className="text-white group-hover:text-black absolute bottom-0 -mb-6">
                                 <svg width={34} height={28} viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -102,7 +106,7 @@ const Testimonial = () => {
                         </div>
                     </div>
                     <div>
-                        <div className="group w-full bg-gre relative flex flex-col items-center hover:bg-gray-700 cursor-pointer shadow-md md:p-12 p-6">
+                        <div className="group w-full bg-white relative flex flex-col items-center hover:bg-gray-700 cursor-pointer shadow-lg md:p-12 p-6">
                             <div className="text-gray-600 group-hover:text-white flex flex-col items-center">
                                 <svg width={26} height={27} viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clipPath="url(#clip0)">
@@ -115,7 +119,7 @@ const Testimonial = () => {
                                         </clipPath>
                                     </defs>
                                 </svg>
-                                <p className="xl:w-80 text-base leading-normal text-center mt-4">It is important to properly dispose of e-waste and Li batteries to prevent harm to the environment and human health. Many communities offer e-waste recycling programs and battery drop-off locations. Additionally, some companies offer recycling programs for their products, such as Apple's recycling program for iPhones and other devices.</p>
+                                <p className="xl:w-80 text-base leading-normal text-justify mt-4">It is important to properly dispose of e-waste and Li batteries to prevent harm to the environment and human health. Many communities offer e-waste recycling programs and battery drop-off locations. Additionally, some companies offer recycling programs for their products, such as Apple's recycling program for iPhones and other devices.</p>
                             </div>
                             <div className="text-white group-hover:text-black absolute bottom-0 -mb-6">
                                 <svg width={34} height={28} viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -49,7 +49,7 @@ const Workers = () => {
         <div className="container flex flex-col items-center justify-center p-4 mx-auto sm:p-10">
            
             <h1 className="text-xl font-bold leading-none text-center text-[#05BFDB] sm:text-4xl font-serif">
-                Our Expert Engineers
+                OUR EXPERT ENGINEERS
             </h1>
             <div className="flex flex-row justify-center mt-8 group">
                 {employees.map(employee => (
@@ -79,7 +79,7 @@ const Workers = () => {
                             </a>
                             <a
                                 rel="noopener noreferrer"
-                                href={`mailto: ${employee?.email}`}
+                                href={employee?.github}
                                 title="Email"
                                 className="text-gray-50 hover:bg-gray-100 hover:text-primary rounded-full p-2 hover:shadow-md hover:shadow-gray-700 hover:scale-110 duration-500"
                             >

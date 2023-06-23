@@ -1,4 +1,5 @@
 import React from 'react';
+import useTitle from '../../../hooks/useTitle';
 import Footer from '../../Shared/Footer/Footer';
 import About from '../About/About';
 import Banner from '../Banner/Banner';
@@ -12,6 +13,10 @@ import Testimonial from '../Testimonial/Testimonial';
 import Workers from '../Workers/Workers';
 
 const Home = () => {
+    useTitle('e-waste')
+
+
+
     return (
         <div>
             <Banner></Banner>

@@ -10,7 +10,7 @@ const ChoiceLine = () => {
             <div className="container  mx-auto w-full h-full">
                 <div className="relative wrap overflow-hidden p-10 h-full">
                     <h2 className="text-center text-[#05BFDB] text-4xl font-bold font-serif">
-                        Why Choose Us
+                        WHY CHOOSE US
                     </h2>
                     <h2 className="text-center text-2xl font-bold  mb-20 mt-12">
                         Why You Choose Our e-waste Service?
