@@ -13,7 +13,7 @@ const Testimonial = () => {
                 <h1 className="text-4xl font-serif  font-semibold px-4 leading-10  mt-6 text-center text-[#05BFDB]">WHAT OUR CLIENT SAYS</h1>
                 <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:px-20 px-10 py-20 gap-6">
                     <div>
-                        <div className="group w-full bg-white relative flex flex-col items-center hover:bg-gray-700 cursor-pointer shadow-lg md:p-12 p-6">
+                        <div className="group w-full bg-white relative flex flex-col items-center hover:bg-gray-700 cursor-pointer shadow-lg md:p-12 p-6" data-aos="zoom-in" data-aos-duration="1000">
                             <div className="text-gray-600 group-hover:text-white flex flex-col items-center">
                                 <svg width={26} height={27} viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clipPath="url(#clip0)">
@@ -59,7 +59,7 @@ const Testimonial = () => {
                         </div>
                     </div>
                     <div>
-                        <div className="group w-full bg-white relative flex flex-col items-center hover:bg-gray-700 cursor-pointer shadow-lg md:p-12 p-6">
+                        <div className="group w-full bg-white relative flex flex-col items-center hover:bg-gray-700 cursor-pointer shadow-lg md:p-12 p-6" data-aos="zoom-in" data-aos-duration="1000">
                             <div className="text-gray-600 group-hover:text-white flex flex-col items-center">
                                 <svg width={26} height={27} viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clipPath="url(#clip0)">
@@ -106,7 +106,7 @@ const Testimonial = () => {
                         </div>
                     </div>
                     <div>
-                        <div className="group w-full bg-white relative flex flex-col items-center hover:bg-gray-700 cursor-pointer shadow-lg md:p-12 p-6">
+                        <div className="group w-full bg-white relative flex flex-col items-center hover:bg-gray-700 cursor-pointer shadow-lg md:p-12 p-6" data-aos="zoom-in" data-aos-duration="1000">
                             <div className="text-gray-600 group-hover:text-white flex flex-col items-center">
                                 <svg width={26} height={27} viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clipPath="url(#clip0)">

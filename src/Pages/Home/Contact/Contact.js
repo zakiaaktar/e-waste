@@ -10,8 +10,8 @@ const Contact = () => {
     return (
         <>
             <div className='text-center'>
-                <div className='text-[#05BFDB] font-bold text-4xl text-center my-11 font-serif'>
-                    <h2>CONTACT INFO</h2>
+                <div className='text-[#05BFDB] font-bold text-4xl text-center my-11'>
+                    <h2 className='font-serif'>CONTACT INFO</h2>
                     <p className='text-xl text-black mt-2'>Looking For an E-waste Solution?</p>
                     <p className='text-xl text-black mt-2'>e-waste offers professional recycling solutions in multiple countries.</p>
                 </div>

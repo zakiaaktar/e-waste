@@ -8,7 +8,7 @@ const Faq = () => {
 
     return (
         <section className="w-4/5 mx-auto my-20 py-5">
-            <h1 className="text-2xl md:text-4xl text-[#05BFDB] font-bold text-center mb-10">
+            <h1 className="text-4xl font-serif md:text-4xl text-[#05BFDB] font-bold text-center mb-10">
                 FREQUENTLY ASKED QUESTIONS
             </h1>
 
